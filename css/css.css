@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to bottom, rgba(46, 22, 22, 0.284),rgb(2, 2, 20));
+    overflow: hidden;
+}
+
+#destaque{
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    color: #ccc;
+    font-size: .9em;
+    margin-bottom: 20px;
+  
+}
+header{
+   text-align: center;
+   font-size: .9em;
+   height: 100px;
+   padding: 5px;
+   background-color: aliceblue;
+}
+.conteiner{
+    color: white;
+    text-align: center;
+   font-size: 1.8em;
+    background-image: linear-gradient(to bottom, rgb(44, 44, 61) , rgb(188, 167, 253));
+    height: 520px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 627px;
+    overflow: hidden;
+
+}
+form{
+    font-size: .9em;
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+   float: left;
+}
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+select{
+    width: 100%;
+    margin-right: 100%;
+    margin-top: 20px;
+  
+}
+form{
+    text-align: left;
+  
+    font-size: .8em;
+    width: 100%;
+}
+#res,#tenta{
+    text-align: left;
+}
+#res{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#tenta{
+   
+    
+    font-size: 1.1em;
+}
+.imagem-transicao {
+    width: 0;
+    opacity: 0;
+    transition: width 0.5s ease, opacity 0.5s ease;
+}
+
+.imagem-transicao.mostrar {
+    width: 300px;
+    height: 180px; /* ou o tamanho que quiser */
+    opacity: 1;
+}
+input{
+    background-color: rgb(91, 91, 91);
+    height: 35px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+::placeholder{
+    color: #ccc;
+}
+button{
+    background-color: lightblue;
+    height: 40px;
+    padding: 10px;
+    width: 80px;
+    border-radius: 50px;
+    display: inline;
+}
