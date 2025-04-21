@@ -108,3 +108,24 @@ button{
     border-radius: 50px;
     display: inline;
 }
+
+.cora-brilhante {
+    font-size: 45px;
+    text-align: center;
+    animation: brilhar 1.5s infinite alternate;
+    filter: drop-shadow(0 0 10px red);
+  }
+  
+  @keyframes brilhar {
+    0% {
+      transform: scale(.9);
+      opacity: 0.7;
+      filter: drop-shadow(0 0 5px red);
+    }
+    100% {
+      transform: scale(1.1);
+      opacity: 1;
+      filter: drop-shadow(0 0 20px hotpink);
+    }
+  }
+  
