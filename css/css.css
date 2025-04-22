@@ -10,7 +10,7 @@
 body{
     font-family: "Montserrat", sans-serif;
     background-image: linear-gradient(to bottom, rgba(46, 22, 22, 0.284),rgb(2, 2, 20));
-    overflow: hidden;
+  
 }
 
 #destaque{
