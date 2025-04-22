@@ -17,7 +17,7 @@ body{
     font-family: "Dancing Script", cursive;
     font-weight: bold;
     color: #ccc;
-    font-size: .9em;
+    font-size: .7em;
     margin-bottom: 20px;
   
 }
@@ -31,7 +31,7 @@ header{
 .conteiner{
     color: white;
     text-align: center;
-   font-size: 1.8em;
+   font-size: 1.2em;
     background-image: linear-gradient(to bottom, rgb(44, 44, 61) , rgb(188, 167, 253));
     height: 520px;
     padding: 10px;
@@ -42,7 +42,7 @@ header{
 
 }
 form{
-    font-size: .9em;
+    font-size: .4em;
     
     margin-top: 5px;
     margin-bottom: 10px;
@@ -63,7 +63,7 @@ select{
 form{
     text-align: left;
   
-    font-size: .8em;
+    font-size: .9em;
     width: 100%;
 }
 #res,#tenta{
@@ -76,7 +76,7 @@ form{
 #tenta{
    
     
-    font-size: 1.1em;
+    font-size: .9em;
 }
 .imagem-transicao {
     width: 0;
@@ -85,7 +85,7 @@ form{
 }
 
 .imagem-transicao.mostrar {
-    width: 300px;
+    width: 200px;
     height: 180px; /* ou o tamanho que quiser */
     opacity: 1;
 }

@@ -17,10 +17,10 @@ click.addEventListener('click', () => {
             cont--
         } 
         else  if(entra>numAlea){
-            tenta.textContent = 'Passou Longe, Voe Baixo'
+            tenta.textContent = 'O numero é menor, Voe Baixo'
          
          }else if(entra<numAlea){
-            tenta.textContent = 'Passou longe,Voe Alto'
+            tenta.textContent = 'O numero é maior,Voe Alto'
     }    else{
         cont--
         tenta.textContent = `🎯 Acertou! O número era ${numAlea}.`;
