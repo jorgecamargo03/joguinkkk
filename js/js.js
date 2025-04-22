@@ -11,6 +11,7 @@ click.addEventListener('click', () => {
     event.preventDefault()
     const entra = txtentra.value
     cont++
+        
         if(entra<1 || entra>100){
             tenta.textContent = 'Invalido (1 A 100)'
             cont--
@@ -26,22 +27,24 @@ click.addEventListener('click', () => {
         setTimeout(()=> {
          tenta.textContent =' Aguarde Seu Premiokkk'
         },2000)
-        setTimeout(() => {
-            const img = document.getElementById('minhaImagem');
-       
-        img.classList.remove('escondida');
-        img.classList.add('mostrar')
-        premio.style.display ='block'
-        }, 4000);
-       
-
-
+        imgAparece()
         click.style.display = 'none'
         reset.style.display= 'inline-block'
         
     } res.textContent = `Tentativas: ${cont}`;
       txtentra.value = ''
 })
+
 reset.addEventListener('click', () => {
     location.reload(); // recarrega a página
 });
+
+function imgAparece(){
+    setTimeout(() => {
+        const img = document.getElementById('minhaImagem');
+   
+    img.classList.remove('escondida');
+    img.classList.add('mostrar')
+    premio.style.display ='block'
+    }, 4000);
+}
